@@ -6,6 +6,7 @@ THIS IS NOT INVESTMENT ADVICE AND SHOULD NOT BE USED IN ANY WAY, SHAPE, OR FORM 
 
 ![](SPY69.png)
 
+This visualization shows the script at work on the monthly timeframe since SPY's inception.
 
 ## The following steps will be performed in this project
 1. Create a THINK OR SWIM ACCOUNT WITH TD AMERITRADE

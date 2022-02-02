@@ -9,7 +9,7 @@ input averageTypeFast = AverageType.Exponential;
 input averageTypeSlow = AverageType.Exponential;
 
 
-input quantity = 500;
+input quantity = 1000;
 
 plot fastMA = MovingAverage (averageTypeFast, close, fastMALength);
 plot slowMA = MovingAverage (averageTypeSlow, close, slowMALength);
