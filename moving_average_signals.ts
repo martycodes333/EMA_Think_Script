@@ -1,4 +1,4 @@
-# Six EMA x NINE EMA crossovers
+# SIX EMA x NINE EMA crossovers
 
 input longEntries = yes;
 input shortEntries = no;
