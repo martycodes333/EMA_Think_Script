@@ -1,0 +1,14 @@
+# Define the length of the lookback period
+input length = 10;
+
+# Calculate the momentum
+def momentum = close / close[length] - 1;
+
+# Buy the stock if the momentum is positive
+if (momentum > 0) {
+  buy("Long") next bar at market;
+}
+
+# Plot the momentum on the chart
+plot momentumLine = momentum;
+momentumLine.SetDefaultColor(GetColor(1));
